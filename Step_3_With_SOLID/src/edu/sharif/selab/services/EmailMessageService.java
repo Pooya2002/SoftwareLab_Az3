@@ -17,10 +17,7 @@ public class EmailMessageService implements MessageService, ValidationService{
         }
     }
 
-<<<<<<< HEAD
     @Override
-=======
->>>>>>> c6d8bc36ae01b88c3ba70777be233b1b772b5f9d
     public boolean validate(String email) {
         // Regular expression pattern for validating email addresses
         String emailRegex = "^[a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\\.[a-zA-Z0-9-.]+$";
