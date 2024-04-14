@@ -2,23 +2,23 @@ package edu.sharif.selab.models;
 
 public class Message {
     String content;
-    private String sourcePhoneNumber;
-    private String targetPhoneNumber;
+    private String source;
+    private String target;
 
     public String getSource() {
-        return sourcePhoneNumber;
+        return source;
     }
 
-    public void setSource(String sourcePhoneNumber) {
-        this.sourcePhoneNumber = sourcePhoneNumber;
+    public void setSource(String source) {
+        this.source = source;
     }
 
     public String getTarget() {
-        return targetPhoneNumber;
+        return target;
     }
 
-    public void setTarget(String targetPhoneNumber) {
-        this.targetPhoneNumber = targetPhoneNumber;
+    public void setTarget(String target) {
+        this.target = target;
     }
 
     public String getContent() {
